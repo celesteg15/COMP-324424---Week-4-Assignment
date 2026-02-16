@@ -14,7 +14,8 @@
         - As the screen gets smaller, the grid will collapse down into fewer columns (dwon to a minimum of 1).
  
  
- ## Week 4 — Guided Build (Starter)
+
+## Week 4 — Guided Build (Starter)
 
 This folder is the **starter** for the Week 4 guided build.
 

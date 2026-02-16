@@ -68,7 +68,7 @@ body {
 
 .site-nav {
   margin-top: 10px;
-  /* TODO (guided build): turn this into a flex row with gap + wrapping */
+  /* TODO (guided build): Made into a flex row with gap + wrapping */
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -149,7 +149,7 @@ body {
   max-width: 70ch;
 }
 
-/* TODO (guided build): make .card-grid a grid gallery with auto-fit/minmax + gap */
+/* TODO (guided build): Made .card-grid  */
 .card-grid {
   display: grid;
   gap: var(--gap);
