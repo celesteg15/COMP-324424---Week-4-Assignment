@@ -1,7 +1,7 @@
 # Week 4 Answers
 1) What flex pattern you used (and where)
     - For the Flexbox usage, I chose  the **nav/toolbar** pattern. This makes the primary navigation act as a toolbar row that can wrap on smaller screens.
-    - This was implementted in 'styles.css' under '.site-nav'.
+    - This was implementted in `styles.css` under `.site-nav`.
 
 
 2) What grid pattern you used (and where)
