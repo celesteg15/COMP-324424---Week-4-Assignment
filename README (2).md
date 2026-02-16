@@ -19,3 +19,9 @@ By editing `styles.css`, you will implement:
 ## Compare with the finished demo
 
 - See `04-layout-patterns-solution/`
+
+
+## Week 4 Answers
+1) What flex pattern you used (and where)
+2) What grid pattern you used (and where)
+3) What responsive behavior you implemented

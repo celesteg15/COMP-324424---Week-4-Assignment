@@ -47,6 +47,15 @@ body {
   background: var(--bg);
 }
 
+.site-nav {
+  margin-top: 10px;
+
+  display: flex; 
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .brand {
   display: flex;
   align-items: center;
@@ -60,6 +69,8 @@ body {
   background: transparent;
   border: 2px solid rgba(154, 209, 223, 0.9);
 }
+
+
 
 .title { font-weight: 750; }
 .subtitle { color: var(--muted); font-size: 0.9rem; }
@@ -120,6 +131,16 @@ body {
   margin: 0 auto;
 
   /* TODO (studio): on wide screens become a 2-column list+detail layout */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr 360px;
+    align-items: start;
+  }
 }
 
 .h1 {
@@ -134,6 +155,11 @@ body {
 }
 
 /* TODO (guided build): make .card-grid a grid gallery with auto-fit/minmax + gap */
+.card-grid {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(210, 1fr));
+}
 
 .card {
   width: 100%;
